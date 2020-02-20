@@ -63,7 +63,7 @@ FPB::FPB(QWidget *parent):QWidget(parent),ui(new Ui::FPB)
 
     this->setWindowFlags(Qt::FramelessWindowHint);
     this->setWindowModality(Qt::NonModal);
-    filename.setFileName("/usr/FINO/FPB/fpbdatabase.db");
+    filename.setFileName("/home/usr/Desktop");
     if(filename.exists() == false)
     {
         if(dbaccess.openDB())
