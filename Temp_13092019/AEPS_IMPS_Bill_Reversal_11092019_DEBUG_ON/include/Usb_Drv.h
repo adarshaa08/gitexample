@@ -1,0 +1,62 @@
+// The present software is not subject to the US Export Administration Regulations (no exportation license required), May 2012
+// The present software is not subject to the US Export Administration Regulations (no exportation license required), May 2012
+#ifndef __USB_DRV_H
+#define __USB_DRV_H
+
+#define MAX_USB_DEVICE				10
+#define MAX_USB_FRAME_SIZE			2*1024*1024
+
+#define SAGEM_VENDOR_ID				0x079b
+#define SAGEM_SECURITE_VENDOR_ID	0x225D
+
+#define SOFTWAREID_MSO100			"MSO100"
+#define SOFTWAREID_MSO300			"MSO300"
+#define SOFTWAREID_MSO350			"MSO350"
+#define SOFTWAREID_MSOTEST			"MSOXXX"
+#define SOFTWAREID_CBM				"CBM"
+#define SOFTWAREID_MSO1350			"MSO1350"
+
+#define SOFTWAREID_CBME3			"CBM-E3"
+#define SOFTWAREID_CBME3L			"CBM-E3L"
+#define SOFTWAREID_MSO1300E3		"MSO1300-E3"
+#define SOFTWAREID_MSO1300E3L		"MSO1300-E3L"
+#define SOFTWAREID_MSO1350E3		"MSO1350-E3"
+#define SOFTWAREID_MSO1350E3L		"MSO1350-E3L"
+
+
+#define SOFTWAREID_FVP				"MSO FVP"
+#define SOFTWAREID_FVP_C			"MSO FVP_C"
+#define SOFTWAREID_FVP_CL			"MSO FVP_CL"
+
+#define	SOFTWAREID_MASIGMA			"MA SIGMA"
+
+#define PRODUCTID_MSO100			0x0023
+#define PRODUCTID_MSO300			0x0024
+#define PRODUCTID_MSO350			0x0026
+#define PRODUCTID_MSOTEST			0x0025
+#define PRODUCTID_CBM				0x0047
+#define PRODUCTID_MSO1350			0x0052
+
+#define PRODUCTID_CBME3				0x0008
+#define PRODUCTID_CBME3L			0x0009
+#define PRODUCTID_MSO1300E3			0x000A
+#define PRODUCTID_MSO1300E3L		0x000B
+#define PRODUCTID_MSO1350E3			0x000C
+#define PRODUCTID_MSO1350E3L		0x000D
+
+#define PRODUCTID_FVP				0x0001
+#define PRODUCTID_FVP_C				0x0002
+#define PRODUCTID_FVP_CL			0x0003
+
+#define	PRODUCTID_MASIGMA			0x000E
+
+#define PRODUCTID_MEP				0x0007
+
+#define SPUSB_SYNC_FRAME			"SYNC"
+#define SPUSB_SYNC_FRAME_LEN		4
+#define SPUSB_END_FRAME				"EN"
+#define SPUSB_END_FRAME_LEN			2
+
+#define SPUSB_TIMEOUT_INFINITE		0xFFFFFFFF
+
+#endif

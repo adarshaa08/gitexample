@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/Fino">
+        <file>fino.png</file>
+        <file>1E.png</file>
+        <file>Refresh.png</file>
+        <file>Hamburger.png</file>
+        <file>Icons/mini.png</file>
+        <file>Icons/finoW.png</file>
+        <file>Icons/Delete.png</file>
+        <file>Icons/BharatBillpay.png</file>
+    </qresource>
+</RCC>
