@@ -1,7 +1,7 @@
 #include <QtGui/QApplication>
 #include "FPB.h"
 int ScannerType = CAPACITIVE;
-
+//Added the commit
 void myMessageHandler(QtMsgType type, const char *msg)
 {
     QString txt;
