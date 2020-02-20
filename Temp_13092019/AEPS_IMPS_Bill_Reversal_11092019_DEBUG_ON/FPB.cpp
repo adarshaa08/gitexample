@@ -10,7 +10,7 @@
 //#include <QMovie>
 //#include <QIODevice>
 #include <fstream>
-
+//this is really boring file
 extern "C"
 {
 #include "gl11.h"
@@ -27,7 +27,8 @@ extern GProfile GETProfile;
 extern Login_leg2 configLoginLeg2;
 extern POSTBENEVER postbeneverif;
 SUPPORTDATA_DEVICEINFO sd_deviceinfo;
-
+int aadarsha;
+char samaga[100];
 /*****************Encrypted function variable and function called********/
 extern "C" unsigned char * uid_random_bytes(unsigned char *rand, int len);
 extern "C" int uid_aes_encrypt_256(unsigned char *in, int inlen, unsigned char *out,int *outlen, unsigned char *key, unsigned char *iv);
