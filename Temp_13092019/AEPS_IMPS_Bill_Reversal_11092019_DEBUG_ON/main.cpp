@@ -14,10 +14,10 @@ void myMessageHandler(QtMsgType type, const char *msg)
         txt = QString("Warning: %1").arg(msg);
     break;
     case QtCriticalMsg:
-        txt = QString("Critical: %1").arg(msg);
+        txt = QString("Warning: %1").arg(msg);
     break;
     case QtFatalMsg:
-        txt = QString("Fatal: %1").arg(msg);
+        txt = QString("Warning: %1").arg(msg);
         abort();
     }
     QFile outFile("/usr/FINO/FPB/debug");
