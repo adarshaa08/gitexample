@@ -292,7 +292,7 @@ int FPB::check_RD_connection()
 
     if(atoi(chBuffer)>= 1)
     {
-        uidmessage::instance()->Display_BusyMessage("Connected to RD service");
+        uidmessage::instance()->Display_BusyMessage("Not connected to RD service");
         sleep(2);
         uidmessage::instance()->hide_Message();
         return FUNCTION_SUCCESS;
